@@ -1,0 +1,281 @@
+body{
+  /* background: grey; */
+  background: #8DCF8C;
+}
+
+.plusOneCanvas {
+  /* background: green; */
+  position: absolute;
+  /* transition: all 1s; */
+  width: 200px;
+  /* height: 300px; */
+  margin-left: 20%;
+  top: -50px;
+  /* transition: all 1s; */
+  font-size: 600%;
+  color: white;
+  align-items: center;
+
+  /* animation: plusOneTop 5s; */
+
+  /* display: block; */
+  /* overflow:visible !important; */
+}
+
+.plusOneCanvas >img{
+  position: absolute;
+  top: -350px;
+  /* background: red; */
+}
+
+
+/* @keyframes plusOneTop {
+  0% {top: 60px;}
+  50% {top: -60px;}
+  100% {opacity: 0;}
+} */
+
+/* .plusOneCanvas {
+  content: "+1";
+  color: black;
+  display: block;
+  font-size: 50px;
+  margin-left: 30px;
+  /* margin-top: 50px; */
+  /* text-align: right;
+  opacity: 1;
+  transition: all 1s;
+  transition-delay: ease-in-out;
+
+} */
+
+/* .PlusOneCanvas:hover {
+  opacity: 0;
+  margin-top: -10px;
+} */
+
+/* .plusOneActual {
+  font-size: 50px;
+  margin-left: 50%;
+  margin-top: 50px;
+  text-align: right; */
+  /* position: absolute; */
+
+/* } */
+
+.cookieCanvas {
+  position: relative;
+  /* background-image: url("https://vignette.wikia.nocookie.net/theloudhouse/images/7/70/Cookie.png/revision/latest?cb=20170928005356"); */
+  /* background-image: url("http://pngimg.com/uploads/teeth/teeth_PNG7324.png"); */
+  /* background: red; */
+  background-image: url('/Users/mahmoudrezaeskandarijam/Documents/UTM/cod2ni/Portfolio/CookieTest/Dandun bckgrnd.png');
+  /* background-image: url('/Users/mahmoudrezaeskandarijam/Documents/UTM/cod2ni/Portfolio/CookieTest/big dandun.png'); */
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: padding-box;
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+  padding: 50%;
+}
+
+
+ .TotalCanvas :active {
+  /* background-image: url('/Users/mahmoudrezaeskandarijam/Documents/UTM/cod2ni/Portfolio/CookieTest/big dandun.png'); */
+
+  /* -webkit-filter: blur(2px); /* Safari */
+  /* filter: blur(2px); */
+  /* -ms-transform: rotate(10deg); /* IE 9 */ */
+  /* -webkit-transform: rotate(10deg); /* Safari 3-8 */ */
+  /* transform: rotate(10deg); */
+
+}
+
+
+.TotalCanvas {
+  width: 100%;
+  padding: 20px;
+  border-color: white;
+  /* background: grey; */
+  background: #8DCF8C;
+}
+
+#text {
+  margin: 0 25% 0 25%;
+  /* width: 50px; */
+  border-radius: 20px;
+  /* background: none; */
+  border: none;
+  font-size: 60px;
+  width: 50%;
+  height: 100px;
+  color: white;
+  background: none;
+}
+
+.powerBubblesList {
+  /* background: red; */
+  height: 500%;
+  /* position: fixed;
+  bottom: 0; */
+
+
+}
+
+.wholeGameCanvas, .GameOver, .TryAgain{
+
+  /* display: grid; */
+  /* grid-template-rows: auto; */
+  /* grid-row: 1/2; */
+  /* padding: 0 10% 0 10%;
+  width: 100%;
+  height: 20%; */
+  /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+    position: absolute;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 300px;
+    height: 200px;
+    display: block;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress .progress-bar {
+  -webkit-transition: none !important;
+  transition: none !important;
+  border-radius: 0px;
+
+
+}
+
+
+.progress-bar{
+  background: red;
+}
+
+.progress {
+  background: #35fa80;
+  /* position: absolute;
+  width: 100%; */
+}
+
+.GameOver{
+  color: white;
+  /* margin: 60% 10% 0 10%; */
+  font-size: 400%;
+  /* top: 10000px; */
+
+
+}
+
+.powerBubblesList{
+  height: 70px;
+  display: grid;
+  /* grid-template-columns: 33% 33% 34%; */
+  grid-template-columns:  50% 50%;
+  /* border: 5px solid black;
+  border-radius: 20px; */
+}
+
+.powerBubblesList > button{
+  margin: 0 5% 0 5%;
+  border-radius: 20px;
+}
+
+.TryAgain {
+  /* position: relative; */
+  top:60%;
+  height: 40%;
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: white;
+}
+
+
+#topEnd {
+  /* background: black; */
+  font-size: 50px;
+  text-align: center;
+}
+
+.glyphicon-plus-sign{
+  color: #35fa80;
+}
+.Dr{
+  background: #35fa80;
+}
+
+.glyphicon-backward {
+  color: #71f7ff;
+}
+
+.Flossing {
+  background: #71f7ff;
+}
+
+
+.backToWeb {
+  float: right;
+  /* width: 20%; */
+  font-size: 60px;
+  color: #35fa80;
+}
+
+
+.POWERS {
+  /* border: 5px solid black;
+  border-radius: 20px; */
+}
+
+.PlayButton {
+  text-align: center;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  background: red;
+  width: 100%;
+  border: none;
+
+}
+
+.htpCanvas {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.icons, .explainPower {
+  padding: 0;
+  color: white;
+}
+
+
+#donime{
+  background-image: url('/Users/mahmoudrezaeskandarijam/Documents/UTM/cod2ni/Portfolio/CookieTest/dandun.gif');
+  /* opacity: 0.5; */
+  /* background: red; */
+}
+
+.donime1{
+  /* display: */
+  /* position: absolute;
+  padding: 50% 60% 50% 60%; */
+  background-image: url('/Users/mahmoudrezaeskandarijam/Documents/UTM/cod2ni/Portfolio/CookieTest/big dandun.png');
+  /* -ms-transform: rotate(10deg); /* IE 9 */
+  /* -webkit-transform: rotate(10deg); /* Safari 3-8 */
+  /* transform: rotate(10deg); */
+
+}
+
+/* .donime2{
+  background-image: url('/Users/mahmoudrezaeskandarijam/Documents/UTM/cod2ni/Portfolio/CookieTest/dandun.gif');
+}  */
